@@ -29,6 +29,8 @@ gem 'pundit'
 gem 'bootsnap', require: false
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'devise'
+gem 'recaptcha', require: 'recaptcha/rails'
 
 group :production do
   gem 'pg'
